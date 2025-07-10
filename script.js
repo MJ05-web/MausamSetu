@@ -51,7 +51,7 @@ function fetchWeather(city) {
     })
     .catch(() => {
       loader.style.display = "none";
-      weatherInfo.innerHTML = `<p>❌ City not found.</p>`;
+      weatherInfo.innerHTML = `<p>:( City not found.</p>`;
     });
 }
 
